@@ -1,0 +1,6 @@
+# Gitignore
+.DS_Store
+Thumbs.db
+Desktop.ini
+*~
+*.bak
