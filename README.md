@@ -24,8 +24,12 @@ This repository serves as a centralized offline knowledge base containing offici
 | Document ID | Title | Description | Document Link |
 | :--- | :--- | :--- | :--- |
 | **PM0214** | STM32 Cortex-M4 Programming Manual | Architecture, Thumb-2 ISA, NVIC registers, SysTick, FPU | [PM0214_Cortex_M4_Programming_Manual.pdf](core_and_reference_manuals/PM0214_Cortex_M4_Programming_Manual.pdf) |
+| **PM0223** | STM32 Cortex-M0+ Programming Manual | Architecture, Thumb ISA, NVIC registers, SysTick for Cortex-M0+ (STM32G0) | [PM0223_Cortex_M0plus_Programming_Manual.pdf](core_and_reference_manuals/PM0223_Cortex_M0plus_Programming_Manual.pdf) |
 | **RM0368** | STM32F401 Reference Manual | Detailed memory map, RCC clock tree, peripheral register maps (RCC, GPIO, TIM, ADC, DMA, I2C, USART) | [RM0368_STM32F401_Reference_Manual.pdf](core_and_reference_manuals/RM0368_STM32F401_Reference_Manual.pdf) |
+| **RM0444** | STM32G0x1 Reference Manual | Full register reference for STM32G0 line (RCC, GPIO, EXTI, DMA, TIM, ADC, USART, I2C, SPI) | [RM0444_STM32G0x1_Reference_Manual.pdf](core_and_reference_manuals/RM0444_STM32G0x1_Reference_Manual.pdf) |
+| **ES0334** | STM32F76xxx / F77xxx Device Errata | Silicon limitations, hardware bugs, and official ST workarounds | [ES0334_STM32F76xxx_Errata_Sheet.pdf](core_and_reference_manuals/ES0334_STM32F76xxx_Errata_Sheet.pdf) |
 | **UM1725** | STM32F4 HAL and LL Drivers User Manual | STMicroelectronics official API reference for HAL & Low-Layer libraries | [UM1725_STM32F4_HAL_LL_Drivers.pdf](core_and_reference_manuals/UM1725_STM32F4_HAL_LL_Drivers.pdf) |
+| **UM3083** | STM32G0 Series IEC 60730 / 61508 Self-Test Library | Class B functional safety library user guide (CPU, RAM, ROM, Watchdog diagnostics) | [UM3083_STM32G0_IEC60730_SelfTest_Library.pdf](core_and_reference_manuals/UM3083_STM32G0_IEC60730_SelfTest_Library.pdf) |
 
 ---
 
@@ -66,9 +70,13 @@ embedded-knowledge-base/
 │   ├── STM32G474_Datasheet.pdf
 │   └── STM32F767ZI_Datasheet.pdf
 ├── core_and_reference_manuals/
+│   ├── ES0334_STM32F76xxx_Errata_Sheet.pdf
 │   ├── PM0214_Cortex_M4_Programming_Manual.pdf
+│   ├── PM0223_Cortex_M0plus_Programming_Manual.pdf
 │   ├── RM0368_STM32F401_Reference_Manual.pdf
-│   └── UM1725_STM32F4_HAL_LL_Drivers.pdf
+│   ├── RM0444_STM32G0x1_Reference_Manual.pdf
+│   ├── UM1725_STM32F4_HAL_LL_Drivers.pdf
+│   └── UM3083_STM32G0_IEC60730_SelfTest_Library.pdf
 ├── development_boards/
 │   ├── UM1974_STM32_Nucleo_144_User_Manual.pdf
 │   └── UM2591_STM32G0_Nucleo_32_User_Manual.pdf
